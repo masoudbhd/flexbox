@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.flex {
+  display: flex;
+
+  background-color: blue;
+  height: 500px;
+  align-items: flex-end;
+}
+
+.item {
+  background-color: firebrick;
+  color: white;
+  padding: 50px 20px;
+}
+.item:last-child {
+  align-self: stretch;
+  justify-self: flex-end;
+  flex: 1;
+}
